@@ -130,7 +130,7 @@ dependencies {
     compile("org.spongepowered:mixin:0.8-SNAPSHOT") {
         transitive = false
     }
-    compile('curse.maven:emojicord:2972949'){
+    compileOnly('curse.maven:emojicord:2972949'){
 
     }
     embed("net.dv8tion:JDA:4.1.1_101")
